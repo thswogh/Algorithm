@@ -13,10 +13,7 @@ int main()
     }
     for (int i = 0; i < 10001; i++)
     {
-        if (cnt[i])
-        {
-            for (int j = 0; j < cnt[i]; j++)
-                printf("%d\n", i);
-        }
+        for (int j = 1; j <= cnt[i]; j++)
+            printf("%d\n", i);
     }
 }
